@@ -1,0 +1,11 @@
+{
+  "name": "compile-through-time",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspace backend",
+    "dev:backend": "npm run dev --workspace backend",
+    "dev:frontend": "npm run dev --workspace frontend"
+  }
+}

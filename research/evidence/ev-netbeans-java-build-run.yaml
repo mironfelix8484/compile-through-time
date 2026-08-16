@@ -1,0 +1,19 @@
+{
+  "id": "ev-netbeans-java-build-run",
+  "sourceType": "OFFICIAL_DOCUMENTATION",
+  "title": "Developing General Java Applications",
+  "sourceUrl": "https://netbeans.apache.org/tutorial/main/kb/docs/java/javase-intro/",
+  "capturedDate": "2026-08-16",
+  "accessedDate": "2026-08-16",
+  "softwareVersions": ["NetBeans IDE 8.x", "JDK 8"],
+  "supports": [
+    "Java projects appear in the Projects pane",
+    "Clean and Build Project is selected from the Run menu and uses Shift-F11",
+    "Ant build results appear in the Output window and end with BUILD SUCCESSFUL",
+    "Run Project executes the application and uses F6",
+    "Program output appears in the Output window"
+  ],
+  "notes": "Official NetBeans Java tutorial for the Ant-based workflow. It supports the panel roles and Build-to-Run sequence, but not the exact Ubuntu theme, geometry, or normalized transcript used here.",
+  "confidenceLevel": "HIGH",
+  "rights": { "redistributable": false, "attribution": "Apache NetBeans" }
+}

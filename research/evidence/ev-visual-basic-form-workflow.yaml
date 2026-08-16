@@ -1,0 +1,18 @@
+{
+  "id": "ev-visual-basic-form-workflow",
+  "sourceType": "MANUAL",
+  "title": "Microsoft Visual Basic User's Guide: Forms and Running a Project",
+  "sourceUrl": "https://manualzilla.com/doc/6879667/vb5-user-s-guide",
+  "capturedDate": "2026-08-16",
+  "accessedDate": "2026-08-16",
+  "softwareVersions": ["Microsoft Visual Basic 5.0", "Microsoft Visual Basic 4.0 workflow"],
+  "supports": [
+    "Forms are designed visually and become the application's windows at run time",
+    "Controls are placed on forms and configured through the Properties window",
+    "Event procedures respond to control actions",
+    "Run > Start, the toolbar Start button, and F5 enter run mode"
+  ],
+  "notes": "A near-contemporary Visual Basic user guide documenting the workflow retained from Visual Basic 4. It supports the interaction model, but not the exact VB4 geometry or transcript, so the snapshot remains simulated.",
+  "confidenceLevel": "MEDIUM",
+  "rights": { "redistributable": false, "attribution": "Microsoft" }
+}

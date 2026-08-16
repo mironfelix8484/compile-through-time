@@ -1,0 +1,14 @@
+{
+  "status": "succeeded",
+  "buildOutput": "ant -f /home/alex/NetBeansProjects/HelloWorld -Dnb.internal.action.name=rebuild clean jar\ninit:\ndeps-clean:\nclean:\nDeleting directory /home/alex/NetBeansProjects/HelloWorld/build\ninit:\ndeps-jar:\nCreated dir: /home/alex/NetBeansProjects/HelloWorld/build/classes\nCompiling 1 source file to /home/alex/NetBeansProjects/HelloWorld/build/classes\njar:\nBuilding jar: /home/alex/NetBeansProjects/HelloWorld/dist/HelloWorld.jar\nBUILD SUCCESSFUL (total time: 1 second)",
+  "executionOutput": "run:\nHello, World!\nBUILD SUCCESSFUL (total time: 0 seconds)",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "command", "label": "Ant command", "status": "succeeded", "output": "ant -f /home/alex/NetBeansProjects/HelloWorld -Dnb.internal.action.name=rebuild clean jar", "evidenceIds": ["ev-netbeans-java-build-run"] },
+    { "id": "clean", "label": "Clean", "status": "succeeded", "output": "init:\ndeps-clean:\nclean:\nDeleting directory /home/alex/NetBeansProjects/HelloWorld/build", "evidenceIds": [] },
+    { "id": "compile", "label": "Compile", "status": "succeeded", "output": "init:\ndeps-jar:\nCreated dir: /home/alex/NetBeansProjects/HelloWorld/build/classes\nCompiling 1 source file to /home/alex/NetBeansProjects/HelloWorld/build/classes", "evidenceIds": [] },
+    { "id": "jar", "label": "Package", "status": "succeeded", "output": "jar:\nBuilding jar: /home/alex/NetBeansProjects/HelloWorld/dist/HelloWorld.jar", "evidenceIds": [] },
+    { "id": "summary", "label": "Build summary", "status": "succeeded", "output": "BUILD SUCCESSFUL (total time: 1 second)", "evidenceIds": ["ev-netbeans-java-build-run"] }
+  ]
+}

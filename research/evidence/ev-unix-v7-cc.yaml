@@ -1,0 +1,14 @@
+{
+  "id": "ev-unix-v7-cc",
+  "kind": "MANUAL",
+  "title": "UNIX Programmer's Manual, Seventh Edition: cc(1)",
+  "url": "https://s3.amazonaws.com/plan9-bell-labs/7thEdMan/index.html",
+  "supports": [
+    "Seventh Edition UNIX dates to 1979",
+    "cc is the UNIX C compiler and accepts .c source files",
+    "the compiler and loader are normally invoked together",
+    "successful compilation does not require a verbose status log"
+  ],
+  "confidence": "HIGH",
+  "notes": "Bell Labs archive of the manual material shipped with the Seventh Edition distribution. The mandated -o invocation is presented as a loader option passed through cc."
+}

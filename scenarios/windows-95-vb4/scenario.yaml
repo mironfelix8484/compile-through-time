@@ -1,0 +1,26 @@
+{
+  "id": "windows-95-visual-basic-4",
+  "title": "Visual Basic 4.0 on Windows 95",
+  "representativeDate": "1995-12-01",
+  "validFrom": "1995-01-01",
+  "validTo": "1995-12-31",
+  "operatingSystem": { "id": "windows-95", "name": "Windows 95", "version": "4.00.950", "edition": "Retail", "architecture": "x86", "locale": "en-US" },
+  "desktopEnvironment": { "name": "Windows 95 Explorer shell", "version": "4.0", "theme": "Windows Standard", "taskbar": "Classic gray taskbar with Start button" },
+  "wallpaper": { "asset": "/assets/windows-95/desktop-teal.svg", "placement": "cover", "fidelity": "RECONSTRUCTED", "notes": "Project-created solid teal desktop background with no Microsoft artwork." },
+  "developmentEnvironment": { "id": "visual-basic-4", "name": "Microsoft Visual Basic", "version": "4.0 Professional Edition" },
+  "compilerOrBuildSystem": { "id": "visual-basic-4-runtime", "name": "Visual Basic Runtime", "version": "4.0 32-bit" },
+  "language": { "id": "visual-basic-4-language", "name": "Visual Basic", "version": "4.0" },
+  "runAction": { "label": "Start", "kind": "RUN", "trigger": "MENU", "shortcut": "F5" },
+  "visualAtmosphere": { "resolution": "1024x768", "colorDepth": "32-bit", "fontRendering": "Windows 95 bitmap-like UI fonts" },
+  "fidelity": "SIMULATED",
+  "evidenceIds": ["ev-visual-basic-form-workflow"],
+  "transcriptPath": "scenarios/windows-95-vb4/transcript.json",
+  "researchNotesPath": "scenarios/windows-95-vb4/research-notes.md",
+  "experience": {
+    "source": { "filename": "Form1.frm", "code": "Private Sub Command1_Click()\n    MsgBox \"Hello World\", vbInformation, \"Project1\"\nEnd Sub" },
+    "buildActionLabel": "Start",
+    "programOutput": "Hello World",
+    "console": { "title": "Form1", "presentation": "output-pane" },
+    "visualStyle": { "variant": "visual-basic-4", "chrome": "windows-classic", "editorFont": "Courier New", "colorScheme": "light" }
+  }
+}

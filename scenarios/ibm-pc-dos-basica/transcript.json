@@ -1,0 +1,10 @@
+{
+  "status": "succeeded",
+  "buildOutput": "RUN",
+  "executionOutput": "HELLO WORLD\nOk",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "run", "label": "Invoke interpreter", "status": "succeeded", "output": "RUN", "evidenceIds": ["ev-ibm-pc-basic-1-1"] }
+  ]
+}

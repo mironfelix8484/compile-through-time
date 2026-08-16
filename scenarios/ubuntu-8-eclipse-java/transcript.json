@@ -1,0 +1,12 @@
+{
+  "status": "succeeded",
+  "buildOutput": "Building workspace\nInvoking 'Java Builder' on '/HelloWorld'\nBuild complete: 0 errors, 0 warnings",
+  "executionOutput": "Hello, World!",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "workspace", "label": "Automatic build", "status": "succeeded", "output": "Building workspace", "evidenceIds": ["ev-eclipse-auto-build"] },
+    { "id": "java-builder", "label": "Java Builder", "status": "succeeded", "output": "Invoking 'Java Builder' on '/HelloWorld'", "evidenceIds": ["ev-eclipse-auto-build"] },
+    { "id": "summary", "label": "Build summary", "status": "succeeded", "output": "Build complete: 0 errors, 0 warnings", "evidenceIds": [] }
+  ]
+}

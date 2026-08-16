@@ -1,0 +1,12 @@
+{
+  "status": "succeeded",
+  "buildOutput": "------ Build started: Project: HelloWorld, Configuration: Debug Any CPU ------\nHelloWorld -> bin\\Debug\\HelloWorld.exe\n========== Build: 1 succeeded, 0 failed, 0 skipped ==========" ,
+  "executionOutput": "Hello World",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "start", "label": "Build started", "status": "succeeded", "output": "------ Build started: Project: HelloWorld, Configuration: Debug Any CPU ------", "evidenceIds": ["ev-vs2005-build-configuration"] },
+    { "id": "compile", "label": "Compile", "status": "succeeded", "output": "HelloWorld -> bin\\Debug\\HelloWorld.exe", "evidenceIds": [] },
+    { "id": "summary", "label": "Build summary", "status": "succeeded", "output": "========== Build: 1 succeeded, 0 failed, 0 skipped ==========", "evidenceIds": [] }
+  ]
+}

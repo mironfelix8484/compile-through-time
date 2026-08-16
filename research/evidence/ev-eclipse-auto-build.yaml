@@ -1,0 +1,18 @@
+{
+  "id": "ev-eclipse-auto-build",
+  "sourceType": "OFFICIAL_DOCUMENTATION",
+  "title": "Eclipse Workbench: Builds",
+  "sourceUrl": "https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.user/reference/ref-5.htm",
+  "capturedDate": "2026-08-16",
+  "accessedDate": "2026-08-16",
+  "softwareVersions": ["Eclipse Platform", "Eclipse JDT"],
+  "supports": [
+    "Eclipse distinguishes automatic and manual build modes",
+    "Automatic builds run incrementally after saved resource changes",
+    "The Java builder converts Java sources into class files",
+    "Build Automatically is the workbench setting used for this workflow"
+  ],
+  "notes": "Official Eclipse documentation for the long-standing workbench builder behavior. Exact 3.3 progress wording is not established by this source.",
+  "confidenceLevel": "HIGH",
+  "rights": { "redistributable": false, "attribution": "Eclipse Foundation" }
+}

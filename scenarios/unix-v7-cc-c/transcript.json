@@ -1,0 +1,10 @@
+{
+  "status": "succeeded",
+  "buildOutput": "",
+  "executionOutput": "Hello World",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "cc", "label": "Compile and load", "status": "succeeded", "output": "", "evidenceIds": ["ev-unix-v7-cc"] }
+  ]
+}

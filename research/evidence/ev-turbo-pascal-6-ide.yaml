@@ -1,0 +1,21 @@
+{
+  "id": "ev-turbo-pascal-6-ide",
+  "sourceType": "MANUAL",
+  "title": "Turbo Pascal Version 6.0 User's Guide",
+  "sourceUrl": "https://bitsavers.org/pdf/borland/turbo_pascal/Turbo_Pascal_Version_6.0_Users_Guide_1990.pdf",
+  "publishedDate": "1990-01-01",
+  "capturedDate": "2026-08-16",
+  "accessedDate": "2026-08-16",
+  "pageOrTimestamp": "Table 1.6 and Chapter 7",
+  "softwareVersions": ["Borland Turbo Pascal 6.0"],
+  "supports": [
+    "Compile is in the Compile menu and uses Alt-F9",
+    "Run is in the Run menu and uses Ctrl-F9",
+    "The IDE uses movable text-mode windows with title bars, scroll bars, and resize corners",
+    "Compilation displays main file, compiling file, line count, available memory, and success status",
+    "The User Screen is distinct from the IDE and can be recalled with Alt-F5"
+  ],
+  "notes": "Contemporary Borland manual scan. It supports the interaction and layout structure, but no matching DOS capture is retained for the exact geometry, colors, or transcript values used here.",
+  "confidenceLevel": "HIGH",
+  "rights": { "redistributable": false, "attribution": "Borland International" }
+}

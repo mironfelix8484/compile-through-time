@@ -1,0 +1,14 @@
+{
+  "status": "succeeded",
+  "buildOutput": "--------------------Configuration: HelloWorld - Win32 Debug--------------------\nCompiling...\nStdAfx.cpp\nCompiling...\nHelloWorld.cpp\nLinking...\nHelloWorld.exe - 0 error(s), 0 warning(s)",
+  "executionOutput": "Hello, world!",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "configuration", "label": "Configuration", "status": "succeeded", "output": "--------------------Configuration: HelloWorld - Win32 Debug--------------------", "evidenceIds": ["ev-vcpp6-build-run"] },
+    { "id": "precompiled-header", "label": "Compile precompiled header", "status": "succeeded", "output": "Compiling...\nStdAfx.cpp", "evidenceIds": [] },
+    { "id": "compile", "label": "Compile", "status": "succeeded", "output": "Compiling...\nHelloWorld.cpp", "evidenceIds": [] },
+    { "id": "link", "label": "Link", "status": "succeeded", "output": "Linking...", "evidenceIds": [] },
+    { "id": "summary", "label": "Build summary", "status": "succeeded", "output": "HelloWorld.exe - 0 error(s), 0 warning(s)", "evidenceIds": [] }
+  ]
+}

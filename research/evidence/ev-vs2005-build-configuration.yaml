@@ -1,0 +1,14 @@
+{
+  "id": "ev-vs2005-build-configuration",
+  "sourceType": "OFFICIAL_DOCUMENTATION",
+  "title": "Setting the Build Configuration",
+  "sourceUrl": "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/identity-lifecycle-manager/ms698748(v=vs.85)",
+  "publishedDate": "2009-02-16",
+  "capturedDate": "2026-08-16",
+  "accessedDate": "2026-08-16",
+  "softwareVersions": ["Visual Studio 2005"],
+  "supports": ["Visual Studio 2005 exposes Debug and Release configurations", "Configuration Manager is reached through the Build menu"],
+  "notes": "Official Microsoft previous-version documentation. It does not establish the exact C# transcript used by the reconstruction.",
+  "confidenceLevel": "HIGH",
+  "rights": { "redistributable": false, "attribution": "Microsoft" }
+}

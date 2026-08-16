@@ -1,0 +1,17 @@
+{
+  "id": "ev-eclipse-java-run",
+  "sourceType": "OFFICIAL_DOCUMENTATION",
+  "title": "Launching a Java Program",
+  "sourceUrl": "https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/tasks/task-launching_java_program.htm",
+  "capturedDate": "2026-08-16",
+  "accessedDate": "2026-08-16",
+  "softwareVersions": ["Eclipse JDT"],
+  "supports": [
+    "Java source can be launched with Run As > Java Application",
+    "The launch action is available from the Package Explorer and Run menu",
+    "Text produced by the Java program appears in the Console view"
+  ],
+  "notes": "Official Eclipse JDT documentation. The command names and view roles are stable, but the exact Eclipse 3.3 GTK appearance is reconstructed separately.",
+  "confidenceLevel": "HIGH",
+  "rights": { "redistributable": false, "attribution": "Eclipse Foundation" }
+}

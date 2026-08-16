@@ -1,0 +1,27 @@
+{
+  "id": "ubuntu-14-netbeans-8-java",
+  "title": "NetBeans 8.0.2 on Ubuntu 14.04",
+  "representativeDate": "2015-06-01",
+  "validFrom": "2015-01-01",
+  "validTo": "2015-12-31",
+  "operatingSystem": { "id": "ubuntu-14-04", "name": "Ubuntu", "version": "14.04 LTS", "edition": "Desktop", "architecture": "x86_64", "locale": "en-US" },
+  "desktopEnvironment": { "name": "Unity", "version": "7", "theme": "Ambiance", "taskbar": "Unity top panel and left launcher" },
+  "wallpaper": { "asset": "/assets/ubuntu-14/ubuntu-inspired.svg", "placement": "cover", "fidelity": "RECONSTRUCTED", "notes": "Project-created purple and orange abstract background inspired by the Ubuntu 14.04 atmosphere; not an Ubuntu wallpaper." },
+  "developmentEnvironment": { "id": "netbeans-8-0-2", "name": "NetBeans IDE", "version": "8.0.2" },
+  "compilerOrBuildSystem": { "id": "jdk8-ant", "name": "JDK 8 / Apache Ant", "version": "1.9" },
+  "language": { "id": "java", "name": "Java", "version": "8" },
+  "buildAction": { "label": "Clean and Build Project", "kind": "BUILD", "trigger": "MENU", "shortcut": "Shift+F11" },
+  "runAction": { "label": "Run Project", "kind": "RUN", "trigger": "MENU", "shortcut": "F6" },
+  "visualAtmosphere": { "resolution": "1024x768", "colorDepth": "32-bit", "fontRendering": "Ubuntu grayscale antialiasing" },
+  "fidelity": "SIMULATED",
+  "evidenceIds": ["ev-netbeans-java-build-run"],
+  "transcriptPath": "scenarios/ubuntu-14-netbeans-8-java/transcript.json",
+  "researchNotesPath": "scenarios/ubuntu-14-netbeans-8-java/research-notes.md",
+  "experience": {
+    "source": { "filename": "HelloWorld.java", "code": "package helloworld;\n\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}" },
+    "buildActionLabel": "Clean and Build Project",
+    "programOutput": "Hello, World!",
+    "console": { "title": "HelloWorld (run)", "presentation": "output-pane" },
+    "visualStyle": { "variant": "netbeans-8", "chrome": "linux-gtk", "editorFont": "Ubuntu Mono", "colorScheme": "light" }
+  }
+}

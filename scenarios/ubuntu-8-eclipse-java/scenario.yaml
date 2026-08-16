@@ -1,0 +1,27 @@
+{
+  "id": "ubuntu-8-eclipse-java",
+  "title": "Eclipse Europa on Ubuntu 8.04",
+  "representativeDate": "2008-06-01",
+  "validFrom": "2008-01-01",
+  "validTo": "2008-12-31",
+  "operatingSystem": { "id": "ubuntu-8-04", "name": "Ubuntu", "version": "8.04 LTS", "edition": "Desktop", "architecture": "x86", "locale": "en-US" },
+  "desktopEnvironment": { "name": "GNOME", "version": "2.22", "theme": "Human", "taskbar": "GNOME top and bottom panels" },
+  "wallpaper": { "asset": "/assets/ubuntu-8/human-inspired.svg", "placement": "cover", "fidelity": "RECONSTRUCTED", "notes": "Project-created warm brown and orange abstract background inspired by Ubuntu's Human era; not an Ubuntu wallpaper." },
+  "developmentEnvironment": { "id": "eclipse-3-3-2", "name": "Eclipse SDK", "version": "3.3.2 Europa" },
+  "compilerOrBuildSystem": { "id": "eclipse-jdt-java6", "name": "Eclipse Java Builder / JDK", "version": "6" },
+  "language": { "id": "java-6", "name": "Java", "version": "6" },
+  "buildAction": { "label": "Build Automatically", "kind": "BUILD", "trigger": "MENU", "shortcut": "" },
+  "runAction": { "label": "Run As > Java Application", "kind": "RUN", "trigger": "MENU", "shortcut": "Ctrl+F11" },
+  "visualAtmosphere": { "resolution": "1024x768", "colorDepth": "32-bit", "fontRendering": "GNOME grayscale antialiasing" },
+  "fidelity": "SIMULATED",
+  "evidenceIds": ["ev-eclipse-auto-build", "ev-eclipse-java-run"],
+  "transcriptPath": "scenarios/ubuntu-8-eclipse-java/transcript.json",
+  "researchNotesPath": "scenarios/ubuntu-8-eclipse-java/research-notes.md",
+  "experience": {
+    "source": { "filename": "HelloWorld.java", "code": "package helloworld;\n\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}" },
+    "buildActionLabel": "Build Automatically",
+    "programOutput": "Hello, World!",
+    "console": { "title": "HelloWorld [Java Application]", "presentation": "output-pane" },
+    "visualStyle": { "variant": "eclipse-3", "chrome": "linux-gtk", "editorFont": "Monospace", "colorScheme": "light" }
+  }
+}

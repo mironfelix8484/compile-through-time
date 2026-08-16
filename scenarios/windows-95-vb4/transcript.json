@@ -1,0 +1,10 @@
+{
+  "status": "succeeded",
+  "buildOutput": "Start Project1",
+  "executionOutput": "Hello World",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "start", "label": "Enter run mode", "status": "succeeded", "output": "Start Project1", "evidenceIds": ["ev-visual-basic-form-workflow"] }
+  ]
+}

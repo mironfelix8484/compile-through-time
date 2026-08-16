@@ -1,0 +1,21 @@
+{
+  "id": "ev-ibm-pc-basic-1-1",
+  "sourceType": "MANUAL",
+  "title": "IBM Personal Computer Hardware Reference Library: BASIC 1.1",
+  "sourceUrl": "https://bitsavers.org/pdf/ibm/pc/languages/BASIC_1.1_May82.pdf",
+  "publishedDate": "1982-05-01",
+  "capturedDate": "2026-08-16",
+  "accessedDate": "2026-08-16",
+  "pageOrTimestamp": "Chapter 2 and RUN command reference",
+  "softwareVersions": ["IBM Personal Computer BASIC 1.1", "IBM Advanced BASIC"],
+  "supports": [
+    "BASIC operates as a full-screen interactive interpreter",
+    "Programs are entered and listed as numbered lines",
+    "RUN executes the program currently held in memory",
+    "BASIC returns to the Ok prompt after program execution",
+    "Function keys expose common commands including LIST and RUN"
+  ],
+  "notes": "Contemporary IBM manual scan. Version A2.10 banner text and the exact screen spacing are corroborated but not verified by a retained matching-system capture.",
+  "confidenceLevel": "HIGH",
+  "rights": { "redistributable": false, "attribution": "IBM" }
+}

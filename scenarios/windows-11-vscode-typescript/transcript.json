@@ -1,0 +1,10 @@
+{
+  "status": "succeeded",
+  "buildOutput": "",
+  "executionOutput": "Hello World",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "tsc", "label": "Type-check and emit", "status": "succeeded", "output": "", "evidenceIds": ["ev-vscode-2026-typescript-workflow"] }
+  ]
+}

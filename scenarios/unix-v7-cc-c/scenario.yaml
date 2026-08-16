@@ -1,0 +1,27 @@
+{
+  "id": "unix-v7-cc-c",
+  "title": "C with cc on Seventh Edition UNIX",
+  "representativeDate": "1979-06-01",
+  "validFrom": "1979-01-01",
+  "validTo": "1979-12-31",
+  "operatingSystem": { "id": "unix-v7", "name": "UNIX Seventh Edition", "version": "Version 7", "edition": "Research UNIX", "architecture": "PDP-11", "locale": "C" },
+  "desktopEnvironment": { "name": "Text terminal", "version": "TTY", "theme": "Monochrome phosphor", "taskbar": "none" },
+  "wallpaper": { "asset": "", "placement": "none", "fidelity": "VERIFIED", "notes": "No graphical desktop or wallpaper." },
+  "developmentEnvironment": { "id": "unix-shell", "name": "UNIX shell and vi", "version": "Seventh Edition" },
+  "compilerOrBuildSystem": { "id": "unix-cc", "name": "cc", "version": "Seventh Edition" },
+  "language": { "id": "c-kr", "name": "C", "version": "K&R C" },
+  "buildAction": { "label": "cc hello.c -o hello", "kind": "BUILD", "trigger": "COMMAND" },
+  "runAction": { "label": "./hello", "kind": "RUN", "trigger": "COMMAND" },
+  "visualAtmosphere": { "resolution": "80x24 characters", "colorDepth": "monochrome", "fontRendering": "fixed-width terminal glyphs" },
+  "fidelity": "SIMULATED",
+  "evidenceIds": ["ev-unix-v7-cc"],
+  "transcriptPath": "scenarios/unix-v7-cc-c/transcript.json",
+  "researchNotesPath": "scenarios/unix-v7-cc-c/research-notes.md",
+  "experience": {
+    "source": { "filename": "hello.c", "code": "main()\n{\n        printf(\"Hello World\\n\");\n}" },
+    "buildActionLabel": "cc hello.c -o hello",
+    "programOutput": "Hello World",
+    "console": { "title": "tty8", "presentation": "terminal" },
+    "visualStyle": { "variant": "unix-v7-cc", "chrome": "none", "editorFont": "monospace", "colorScheme": "monochrome" }
+  }
+}

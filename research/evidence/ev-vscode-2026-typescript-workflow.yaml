@@ -1,0 +1,14 @@
+{
+  "id": "ev-vscode-2026-typescript-workflow",
+  "kind": "MANUAL",
+  "title": "Visual Studio Code user interface and TypeScript tsc documentation",
+  "url": "https://code.visualstudio.com/docs/editing/userinterface",
+  "supports": [
+    "VS Code uses an Activity Bar, Primary Side Bar with Explorer, tabbed editor, bottom Panel, integrated terminal, and Status Bar",
+    "Visual Studio Code 1.131 was released in July 2026",
+    "project-local tsc compiles the closest tsconfig project",
+    "outDir places emitted JavaScript in a separate output directory"
+  ],
+  "confidence": "HIGH",
+  "notes": "Layout evidence is from current official VS Code documentation. Compiler behavior is cross-checked against the official TypeScript CLI and outDir references."
+}

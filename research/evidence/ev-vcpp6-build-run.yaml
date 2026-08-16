@@ -1,0 +1,20 @@
+{
+  "id": "ev-vcpp6-build-run",
+  "sourceType": "MANUAL",
+  "title": "Desktop Applications with Microsoft Visual C++ 6.0 MCSD Training Kit — Exploring the Development Environment",
+  "sourceUrl": "https://flylib.com/books/en/2.906.1.12/1/",
+  "publishedDate": "1999-01-01",
+  "capturedDate": "2026-08-16",
+  "accessedDate": "2026-08-16",
+  "softwareVersions": ["Microsoft Visual C++ 6.0"],
+  "supports": [
+    "Visual C++ 6.0 uses Workspace, edit, and Output areas",
+    "The Workspace exposes ClassView, ResourceView, and FileView tabs",
+    "Build <project>.exe is available from the Build menu and uses F7",
+    "Execute <project>.exe is available from the Build menu and uses Ctrl+F5",
+    "The Build tab reports compiler and linker progress"
+  ],
+  "notes": "Contemporary Microsoft Press training material reproduced online. It supports the broad IDE structure and action labels, but not the exact HelloWorld transcript or Windows 98 presentation used here.",
+  "confidenceLevel": "MEDIUM",
+  "rights": { "redistributable": false, "attribution": "Microsoft Press" }
+}

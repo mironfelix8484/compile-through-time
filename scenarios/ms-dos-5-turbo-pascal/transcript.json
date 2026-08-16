@@ -1,0 +1,13 @@
+{
+  "status": "succeeded",
+  "buildOutput": "Main file: HELLO.PAS\nCompiling: HELLO.PAS\nLines compiled: 5\nAvailable memory: 313K\nCompile successful",
+  "executionOutput": "Hello, World!",
+  "warnings": [],
+  "errors": [],
+  "phases": [
+    { "id": "main-file", "label": "Main file", "status": "succeeded", "output": "Main file: HELLO.PAS", "evidenceIds": ["ev-turbo-pascal-6-ide"] },
+    { "id": "compile", "label": "Compile", "status": "succeeded", "output": "Compiling: HELLO.PAS", "evidenceIds": ["ev-turbo-pascal-6-ide"] },
+    { "id": "statistics", "label": "Compilation statistics", "status": "succeeded", "output": "Lines compiled: 5\nAvailable memory: 313K", "evidenceIds": [] },
+    { "id": "summary", "label": "Compile summary", "status": "succeeded", "output": "Compile successful", "evidenceIds": ["ev-turbo-pascal-6-ide"] }
+  ]
+}

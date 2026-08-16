@@ -1,0 +1,27 @@
+{
+  "id": "windows-xp-vs-2005",
+  "title": "Visual Studio 2005 on Windows XP",
+  "representativeDate": "2005-12-01",
+  "validFrom": "2005-11-07",
+  "validTo": "2010-04-12",
+  "operatingSystem": { "id": "windows-xp", "name": "Windows XP", "version": "Service Pack 2", "edition": "Professional", "architecture": "x86", "locale": "en-US" },
+  "desktopEnvironment": { "name": "Windows XP shell", "version": "5.1", "theme": "Luna Blue", "taskbar": "Blue taskbar with green Start button" },
+  "wallpaper": { "asset": "/assets/windows-xp/bliss-inspired.png", "placement": "cover", "fidelity": "RECONSTRUCTED", "notes": "Original hill-and-sky reconstruction inspired by the atmosphere of Bliss; not the Microsoft image." },
+  "developmentEnvironment": { "id": "visual-studio-2005", "name": "Microsoft Visual Studio", "version": "2005" },
+  "compilerOrBuildSystem": { "id": "csharp-msbuild-2", "name": "C# Compiler / MSBuild", "version": "2.0" },
+  "language": { "id": "csharp", "name": "C#", "version": "2.0" },
+  "buildAction": { "label": "Build Solution", "kind": "BUILD", "trigger": "MENU", "shortcut": "Ctrl+Shift+B" },
+  "runAction": { "label": "Start Without Debugging", "kind": "RUN", "trigger": "MENU", "shortcut": "Ctrl+F5" },
+  "visualAtmosphere": { "resolution": "1024x768", "colorDepth": "32-bit", "fontRendering": "Windows XP ClearType-like" },
+  "fidelity": "SIMULATED",
+  "evidenceIds": ["ev-vs2005-build-configuration"],
+  "transcriptPath": "scenarios/windows-xp-vs2005-csharp/transcript.json",
+  "researchNotesPath": "scenarios/windows-xp-vs2005-csharp/research-notes.md",
+  "experience": {
+    "source": { "filename": "Program.cs", "code": "using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine(\"Hello World\");\n    }\n}" },
+    "buildActionLabel": "Build Solution",
+    "programOutput": "Hello World",
+    "console": { "title": "C:\\WINDOWS\\system32\\cmd.exe", "presentation": "console-window" },
+    "visualStyle": { "variant": "visual-studio-2005", "chrome": "windows-xp", "editorFont": "Courier New", "colorScheme": "blue" }
+  }
+}

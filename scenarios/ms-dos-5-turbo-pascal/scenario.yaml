@@ -1,0 +1,26 @@
+{
+  "id": "ms-dos-5-turbo-pascal-6",
+  "title": "Turbo Pascal 6.0 on MS-DOS 5",
+  "representativeDate": "1991-12-01",
+  "validFrom": "1991-01-01",
+  "validTo": "1991-12-31",
+  "operatingSystem": { "id": "ms-dos-5", "name": "MS-DOS", "version": "5.0", "edition": "Retail", "architecture": "x86", "locale": "en-US" },
+  "desktopEnvironment": { "name": "MS-DOS text mode", "version": "80x25", "theme": "VGA 16-color", "taskbar": "Turbo Pascal function-key shortcut bar" },
+  "developmentEnvironment": { "id": "turbo-pascal-6", "name": "Borland Turbo Pascal", "version": "6.0" },
+  "compilerOrBuildSystem": { "id": "turbo-pascal-6-compiler", "name": "Turbo Pascal Compiler", "version": "6.0" },
+  "language": { "id": "pascal", "name": "Pascal", "version": "Turbo Pascal 6.0 dialect" },
+  "buildAction": { "label": "Compile", "kind": "BUILD", "trigger": "MENU", "shortcut": "Alt+F9" },
+  "runAction": { "label": "Run", "kind": "RUN", "trigger": "MENU", "shortcut": "Ctrl+F9" },
+  "visualAtmosphere": { "resolution": "640x400", "colorDepth": "16-color", "fontRendering": "VGA 8x16 bitmap-like text" },
+  "fidelity": "SIMULATED",
+  "evidenceIds": ["ev-turbo-pascal-6-ide"],
+  "transcriptPath": "scenarios/ms-dos-5-turbo-pascal/transcript.json",
+  "researchNotesPath": "scenarios/ms-dos-5-turbo-pascal/research-notes.md",
+  "experience": {
+    "source": { "filename": "HELLO.PAS", "code": "program HelloWorld;\nbegin\n  WriteLn('Hello, World!');\n  ReadLn;\nend." },
+    "buildActionLabel": "Compile",
+    "programOutput": "Hello, World!",
+    "console": { "title": "User screen", "prompt": "_", "presentation": "output-pane" },
+    "visualStyle": { "variant": "turbo-pascal-6", "chrome": "dos-text", "editorFont": "Courier New", "colorScheme": "blue" }
+  }
+}

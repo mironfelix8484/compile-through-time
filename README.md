@@ -199,10 +199,11 @@ npm run build
 ```
 
 ***** Keep it simple :
+```
 git clone
 npm install
 npm run dev
-
+```
 # Architecture
 
 ```text

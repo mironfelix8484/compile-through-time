@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { WorkspaceRenderer } from "./components/WorkspaceRenderer";
 import { YearTimeline } from "./components/YearTimeline";
+import { SiteInformation } from "./components/SiteInformation";
+import { SiteFooter } from "./components/SiteFooter";
 import { getEnvironments } from "./services/environments";
 import type { DevelopmentEnvironment } from "./types/Environment";
 import "./styles.css";
@@ -30,6 +32,7 @@ export default function App() {
   if (entered && environment) return <WorkspaceRenderer environment={environment} onExit={() => setEntered(false)} />;
 
   return (
+    <>
     <main className="timeline-page">
       <header className="intro">
         <p className="eyebrow">Compile Through Time</p>
@@ -50,6 +53,9 @@ export default function App() {
           <button className="enter-workspace" onClick={() => setEntered(true)} type="button">Enter workspace</button>
         </article>
       )}
+      <SiteInformation />
     </main>
+    <SiteFooter />
+    </>
   );
 }

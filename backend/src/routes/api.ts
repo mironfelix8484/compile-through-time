@@ -1,17 +1,16 @@
 import { Router } from "express";
 import { CompilationController } from "../controllers/CompilationController.js";
 import { EnvironmentController } from "../controllers/EnvironmentController.js";
-import { FakeCompilationProvider } from "../providers/FakeCompilationProvider.js";
-import { StaticHistoricalCatalogProvider } from "../providers/StaticHistoricalCatalogProvider.js";
-import { CompilationService } from "../services/CompilationService.js";
-import { EnvironmentService } from "../services/EnvironmentService.js";
+import type { ResearchArtifactRepository } from "../research/ResearchArtifactRepository.js";
+import { createBackendServices } from "../composition.js";
 
-export const apiRouter = Router();
-const catalogProvider = new StaticHistoricalCatalogProvider();
-const environmentController = new EnvironmentController(new EnvironmentService(catalogProvider));
-const compilationController = new CompilationController(
-  new CompilationService(new FakeCompilationProvider(catalogProvider)),
-);
-apiRouter.get("/health", (_request, response) => response.json({ status: "ok" }));
-apiRouter.get("/environments", environmentController.getByDate);
-apiRouter.post("/compilations", compilationController.create);
+export function createApiRouter(artifacts: ResearchArtifactRepository): Router {
+  const apiRouter = Router();
+  const services = createBackendServices(artifacts);
+  const environmentController = new EnvironmentController(services.environments);
+  const compilationController = new CompilationController(services.compilations);
+  apiRouter.get("/health", (_request, response) => response.json({ status: "ok" }));
+  apiRouter.get("/environments", environmentController.getByDate);
+  apiRouter.post("/compilations", compilationController.create);
+  return apiRouter;
+}

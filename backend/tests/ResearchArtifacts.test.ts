@@ -1,8 +1,9 @@
 import { access } from "node:fs/promises";
 import { describe, expect, it } from "vitest";
 import { ResearchArtifactRepository } from "../src/research/ResearchArtifactRepository.js";
+import { NodeResearchArtifactLoader } from "../src/research/NodeResearchArtifactLoader.js";
 
-const repository = new ResearchArtifactRepository();
+const repository = new ResearchArtifactRepository(new NodeResearchArtifactLoader());
 
 describe("workspace research artifacts", () => {
   it("publishes nine internally consistent workspace snapshots", async () => {

@@ -3,7 +3,7 @@ import { ResearchArtifactRepository } from "../research/ResearchArtifactReposito
 import type { HistoricalCatalogProvider } from "./HistoricalCatalogProvider.js";
 
 export class StaticHistoricalCatalogProvider implements HistoricalCatalogProvider {
-  constructor(private readonly artifacts = new ResearchArtifactRepository()) {}
+  constructor(private readonly artifacts: ResearchArtifactRepository) {}
 
   async getCatalog(): Promise<HistoricalCatalog> {
     const [manifests, evidence] = await Promise.all([this.artifacts.getWorkspaceSnapshots(), this.artifacts.getEvidence()]);

@@ -1,0 +1,8 @@
+name = "compile-through-time-backend"
+main = "src/worker.ts"
+compatibility_date = "2026-08-26"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.yaml"]
+fallthrough = true

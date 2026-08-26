@@ -1,4 +1,3 @@
-import { randomUUID } from "node:crypto";
 import type { Compilation } from "../models/Compilation.js";
 import { ResearchArtifactRepository } from "../research/ResearchArtifactRepository.js";
 import type { CompilationProvider } from "./CompilationProvider.js";
@@ -11,7 +10,7 @@ export class RuntimeNotFoundError extends Error {
 export class FakeCompilationProvider implements CompilationProvider {
   constructor(
     private readonly catalogProvider: HistoricalCatalogProvider,
-    private readonly artifacts = new ResearchArtifactRepository(),
+    private readonly artifacts: ResearchArtifactRepository,
   ) {}
 
   async compile(environmentId: string): Promise<Compilation> {
@@ -21,7 +20,7 @@ export class FakeCompilationProvider implements CompilationProvider {
 
     const transcript = await this.artifacts.getTranscript(snapshot.transcriptPath);
     return {
-      compilationId: randomUUID(),
+      compilationId: crypto.randomUUID(),
       ...transcript,
       output: transcript.buildOutput,
       programOutput: transcript.executionOutput,

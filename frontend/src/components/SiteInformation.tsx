@@ -62,7 +62,7 @@ export function SiteInformation() {
           <nav className="professional-links" aria-label="Professional links">
             <a href="/felix-miron-resume.pdf" target="_blank" rel="noreferrer">Résumé / CV</a>
             <a href="https://github.com/mironfelix8484" target="_blank" rel="noreferrer">GitHub</a>
-            <a href={`mailto:${CONTACT_EMAIL_PLACEHOLDER}`}>Contact <span>(placeholder)</span></a>
+            <a href={`mailto:${CONTACT_EMAIL_PLACEHOLDER}`}>Contact</a>
           </nav>
         </div>
       </section>
